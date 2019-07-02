@@ -3167,8 +3167,7 @@
     display: block; }
   
   .navbar {
-    position: fixed;
-    width: 100%;
+    position: relative;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -3287,6 +3286,8 @@
   
   @media (min-width: 768px) {
     .navbar-expand-md {
+      position: fixed;
+      width: 100%;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
       -ms-flex-pack: start;
